@@ -1,0 +1,40 @@
+.nav {
+  top: 0;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    top: -35px;
+  }
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 0;
+  float: right;
+}
+
+.nav-list-item {
+  cursor: pointer;
+  border-right: 1px solid #f0f0f0;
+  display: inline-block;
+  margin: 5px 0;
+  padding: 1px 15px;
+}
+
+.nav-list-item, .nav-list-item > a{
+  font-family: serif;
+  text-transform: uppercase;
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+.nav-list-item > a:active {
+  text-decoration: underline;
+}
+
+.nav-list-item:last-child {
+  border: none;
+}
