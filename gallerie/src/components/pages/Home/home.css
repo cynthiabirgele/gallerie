@@ -6,9 +6,15 @@
 .start-info {
   width: 70%;
   float: right;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
   text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+  .start-info {
+    font-size: 1.3em;
+  }
 }
 
 .start-info a {
@@ -23,5 +29,11 @@
 
 .start {
   display: inline-block;
-  padding: 0 10px 0 0;
+  padding: 0 15px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .start {
+    padding: 0 10px 0 0;
+  }
 }
