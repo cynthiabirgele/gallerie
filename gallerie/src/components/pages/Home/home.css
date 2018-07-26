@@ -1,0 +1,27 @@
+.start-img {
+  width: 30%;
+  float: left;
+}
+
+.start-info {
+  width: 70%;
+  float: right;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.start-info a {
+  color: #FD882D;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.start-info a:hover {
+  text-decoration: underline;
+}
+
+.start {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
