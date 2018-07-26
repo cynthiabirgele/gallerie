@@ -28,25 +28,25 @@ class RoomList extends Component {
 					onClick={() => this.props.addOverlay(room)}
 					className="room_item"
 				>
-					<p>
-						<Link to={`/demo/${room.key}`}>{room.title}</Link>
-					</p>
-					{room.images && (
-						<div className="room_preview-active">
-							{room.images &&
-								room.images.map(img => {
-									return (
-										<div className="room_preview" key={img.id}>
-											<img
-												className="room_preview-img"
-												src={img.src}
-												alt={img.id}
-											/>
-										</div>
-									)
-								})}
-						</div>
-					)}
+					<Link to={`/demo/${room.key}`}>
+						<p>{room.title}</p>
+						{room.images && (
+							<div className="room_preview-active">
+								{room.images &&
+									room.images.map(img => {
+										return (
+											<div className="room_preview" key={img.id}>
+												<img
+													className="room_preview-img"
+													src={img.src}
+													alt={img.id}
+												/>
+											</div>
+										)
+									})}
+							</div>
+						)}
+					</Link>
 				</li>
 			)
 		})
