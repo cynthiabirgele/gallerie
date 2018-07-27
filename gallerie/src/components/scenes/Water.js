@@ -243,7 +243,7 @@ export default class Water extends Component {
 				}}
 				style={{
 					width: "100%",
-					height: isMobile ? "50%" : "100%",
+					height: isMobile ? "55%" : "100%",
 					position: `absolute`,
 					top: `50px`,
 					bottom: 0,
