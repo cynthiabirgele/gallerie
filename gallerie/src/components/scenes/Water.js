@@ -235,6 +235,7 @@ export default class Water extends Component {
 	}
 
 	render() {
+		var isMobile = document.body.offsetWidth < 768
 		return (
 			<div
 				ref={mount => {
@@ -242,9 +243,10 @@ export default class Water extends Component {
 				}}
 				style={{
 					width: "100%",
-					height: "100%",
+					height: isMobile ? "50%" : "100%",
 					position: `absolute`,
 					top: `50px`,
+					bottom: 0,
 					left: 0,
 					right: 0,
 					margin: `auto`,
