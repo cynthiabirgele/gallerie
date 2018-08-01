@@ -46,7 +46,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/1.png`,
-						class: `carousel-img`,
 						transform: `scale`,
 						activeX: 1.09,
 						activeY: 1.05,
@@ -59,7 +58,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/111.png`,
-						class: `carousel-img-2`,
 						transform: `scale`,
 						activeX: 1.05,
 						activeY: 1.05,
@@ -72,7 +70,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/1111.png`,
-						class: `carousel-img-3`,
 						transform: `scale`,
 						activeX: 1.05,
 						activeY: 1.05,
@@ -87,7 +84,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/1.png`,
-						class: `carousel-img`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -100,7 +96,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/111.png`,
-						class: `carousel-img-2`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -113,7 +108,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/1111.png`,
-						class: `carousel-img-3`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -128,7 +122,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/3.png`,
-						class: `carousel-img3`,
 						transform: `scale`,
 						activeX: 1.04,
 						activeY: 1.04,
@@ -141,7 +134,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/33.png`,
-						class: `carousel-img3-1`,
 						transform: `scale`,
 						activeX: 1.04,
 						activeY: 1.04,
@@ -156,7 +148,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/3.png`,
-						class: `carousel-img3`,
 						transform: `scale`,
 						activeX: 1.02,
 						activeY: 1.02,
@@ -169,7 +160,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/33.png`,
-						class: `carousel-img3-1`,
 						transform: `scale`,
 						activeX: 1.02,
 						activeY: 1.02,
@@ -184,7 +174,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/3.png`,
-						class: `carousel-img3`,
 						transform: `scale`,
 						activeX: 1.03,
 						activeY: 1,
@@ -199,7 +188,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/2.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1.065,
 						activeY: 1.065,
@@ -212,7 +200,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/22.png`,
-						class: `carousel-img2-2`,
 						transform: `scale`,
 						activeX: 1.05,
 						activeY: 1.04,
@@ -225,7 +212,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/222.png`,
-						class: `carousel-img2-3`,
 						transform: `scale`,
 						activeX: 1.05,
 						activeY: 1.04,
@@ -240,7 +226,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/2.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1.06,
 						activeY: 1.06,
@@ -253,7 +238,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/22.png`,
-						class: `carousel-img2-2`,
 						transform: `scale`,
 						activeX: 1.06,
 						activeY: 1.06,
@@ -266,7 +250,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/222.png`,
-						class: `carousel-img2-3`,
 						transform: `scale`,
 						activeX: 1.06,
 						activeY: 1.06,
@@ -281,7 +264,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/2.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1.04,
 						activeY: 1.04,
@@ -296,7 +278,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/4.png`,
-						class: `carousel-img`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -311,7 +292,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/4.png`,
-						class: `carousel-img`,
 						transform: `scale`,
 						activeX: 1.05,
 						activeY: 1,
@@ -326,7 +306,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/5.png`,
-						class: `carousel-img5`,
 						transform: `scale`,
 						deg: 0,
 						rotate: true,
@@ -343,7 +322,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/5.png`,
-						class: `carousel-img5`,
 						transform: `scale`,
 						deg: 20,
 						rotate: true,
@@ -360,7 +338,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/6.png`,
-						class: `carousel-img5`,
 						transform: `scale`,
 						activeX: 1.4,
 						activeY: 1.4,
@@ -375,7 +352,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/6.png`,
-						class: `carousel-img5`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -390,7 +366,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/7.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1.03,
 						activeY: 1.03,
@@ -403,7 +378,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/777.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1.09,
 						activeY: 1.06,
@@ -418,7 +392,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/7.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -431,7 +404,6 @@ export default function() {
 					},
 					{
 						src: `../../images/artnouveau/777.png`,
-						class: `carousel-img2`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,
@@ -446,7 +418,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/8.png`,
-						class: `carousel-img`,
 						transform: `scale`,
 						activeX: 1.55,
 						activeY: 1.55,
@@ -461,7 +432,6 @@ export default function() {
 				[
 					{
 						src: `../../images/artnouveau/9.png`,
-						class: `carousel-img`,
 						transform: `scale`,
 						activeX: 1,
 						activeY: 1,

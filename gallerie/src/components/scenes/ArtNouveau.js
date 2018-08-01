@@ -66,7 +66,6 @@ export default class ArtNouveau extends Component {
 							<img
 								style={imgStyle}
 								src={layer.src}
-								className={layer.class}
 								alt="test"
 							/>
 						)
