@@ -9,7 +9,9 @@ export default class ArtNouveau extends Component {
 	}
 
 	componentDidMount() {
+		clearInterval(this.state.interval)
 		if (this.props.room === `Art`) {
+			window.scrollTo(0, 0)
 			this.setState({
 				isActive: true,
 			})
@@ -22,6 +24,7 @@ export default class ArtNouveau extends Component {
 			var counter = 1
 			var self = this
 			var timer = setInterval(function() {
+				console.log(counter)
 				self.setState({
 					activeImage: counter,
 					isActive: true,

@@ -12,6 +12,7 @@ export default class WaterScene extends Component {
 
 	componentDidMount(prevProps, prevState) {
 		if (this.props.room === `Water`) {
+			window.scrollTo(0, 0)
 			this.setState({
 				roomOpen: true,
 			})
