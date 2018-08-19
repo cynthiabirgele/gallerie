@@ -9,8 +9,8 @@ class About extends Component {
 				<div className="content-body">
 					<p>
 						UZ SIENAS (`ON THE WALL`) provides lightweight interactive solutions
-						for digital exhibitions, showrooms using React.js and three.js
-						JavaScript libraries.
+						for digital exhibitions, showrooms using different JavaScript coding
+						practices.
 					</p>
 				</div>
 			</div>

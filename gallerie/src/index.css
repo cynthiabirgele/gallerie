@@ -6,12 +6,7 @@ body {
 
 .main {
   height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .main {
-    overflow-y: scroll;
-  }
+  overflow-y: scroll;
 }
 
 p {
@@ -20,7 +15,13 @@ p {
 }
 
 .content {
-  margin: 0 15% 10px;
+  margin: 0 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    margin: 0 15% 10px;
+  }
 }
 
 .content > p, .content > div {

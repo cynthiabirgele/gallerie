@@ -65,13 +65,7 @@ export default class ArtNouveau extends Component {
 							transform: `${scaleAction}(${activeScaleClass}) ${rotateAction}`,
 							transition: `transform 5s ease`,
 						}
-						return (
-							<img
-								style={imgStyle}
-								src={layer.src}
-								alt="test"
-							/>
-						)
+						return <img style={imgStyle} src={layer.src} alt="test" />
 				  })
 				: {}
 		return (

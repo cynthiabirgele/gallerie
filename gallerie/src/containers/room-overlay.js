@@ -59,9 +59,7 @@ class ActiveRoom extends Component {
 				/>
 			)) ||
 			(this.props.room.component === `Daugava` && (
-				<Daugava
-					room={this.props.room.component}
-				/>
+				<Daugava room={this.props.room.component} />
 			))
 
 		const hasDescription = this.props.room.description.length > 0
@@ -98,11 +96,13 @@ class ActiveRoom extends Component {
 				</div>
 				{this.state.showInfo && (
 					<div className="room_nav-description">
-							{this.props.room.description.map(descr => {
-								return (
-									<p className="room_nav-description-text" key={descr.id}>{descr.text}</p>
-								)
-							})}
+						{this.props.room.description.map(descr => {
+							return (
+								<p className="room_nav-description-text" key={descr.id}>
+									{descr.text}
+								</p>
+							)
+						})}
 					</div>
 				)}
 				{findElement}

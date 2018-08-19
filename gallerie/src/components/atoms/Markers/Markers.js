@@ -6,23 +6,34 @@ export default class Markers extends Component {
 		markerActive: false,
 	}
 
-  onMouseEnter() {
-    if(!this.state.markerActive) {
-      this.setState({markerActive: true})
-    }
-  }
+	onMouseEnter() {
+		if (!this.state.markerActive) {
+			this.setState({ markerActive: true })
+		}
+	}
 
-  onMouseLeave() {
-    if(this.state.markerActive) {
-      this.setState({markerActive: false})
-    }
-  }
+	onMouseLeave() {
+		if (this.state.markerActive) {
+			this.setState({ markerActive: false })
+		}
+	}
 
 	render() {
-    const cameraClass = this.state.markerActive ? `../../images/maps/icon/marker-active.png` : `../../images/maps/icon/marker.png`
+		const cameraClass = this.state.markerActive
+			? `../../images/maps/icon/marker-active.png`
+			: `../../images/maps/icon/marker.png`
 		return (
 			<div className="marker">
-          <img ref={marker => {this.marker = marker}} src={cameraClass} alt="test" className="camera" onMouseEnter={() => this.onMouseEnter()} onMouseLeave={() =>this.onMouseLeave()}/>
+				<img
+					ref={marker => {
+						this.marker = marker
+					}}
+					src={cameraClass}
+					alt="test"
+					className="camera"
+					onMouseEnter={() => this.onMouseEnter()}
+					onMouseLeave={() => this.onMouseLeave()}
+				/>
 			</div>
 		)
 	}

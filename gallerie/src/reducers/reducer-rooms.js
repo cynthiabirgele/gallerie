@@ -7,44 +7,54 @@ export default function() {
 			description: [
 				{
 					id: 1,
-					text: "“Above all, do not lose your desire to walk. Everyday, I walk myself into a state of well-being & walk away from every illness. I have walked myself into my best thoughts, and I know of no thought so burdensome that one cannot walk away from it.” Søren Kierkegaard",
+					text:
+						"“Above all, do not lose your desire to walk. Everyday, I walk myself into a state of well-being & walk away from every illness. I have walked myself into my best thoughts, and I know of no thought so burdensome that one cannot walk away from it.” Søren Kierkegaard",
 				},
 				{
 					id: 2,
-					text: "In current situation where work takes place by sitting mainly and transporting people by cars from door to door, there is a rapidly growing health problems in our society.",
+					text:
+						"In current situation where work takes place by sitting mainly and transporting people by cars from door to door, there is a rapidly growing health problems in our society.",
 				},
 				{
 					id: 3,
-					text: "The growing care about the human dimension of urban planning reflects a significant and very strong demand for a better quality of life in the city. There is a direct connection between the urban improvements meant for humans, and the strong desire to see the city alive, safe, sustainable and healthy.",
+					text:
+						"The growing care about the human dimension of urban planning reflects a significant and very strong demand for a better quality of life in the city. There is a direct connection between the urban improvements meant for humans, and the strong desire to see the city alive, safe, sustainable and healthy.",
 				},
 				{
 					id: 4,
-					text: "Life in urban areas characterized by activities, overall surrounding and complexity, where a lot of overlap and purposeful movement often alternate with stopping, residence and negotiations. That is unpredictable and unplanned, spontaneous action what gives by the route and rest in urban space a special satisfaction.",
+					text:
+						"Life in urban areas characterized by activities, overall surrounding and complexity, where a lot of overlap and purposeful movement often alternate with stopping, residence and negotiations. That is unpredictable and unplanned, spontaneous action what gives by the route and rest in urban space a special satisfaction.",
 				},
 				{
 					id: 5,
-					text: "The variety of activities in the city space is characterized by basic patterns of use. In simple terms, the most important activity categories can be arranged on a scale, depending on necessity. One scale is the purposeful, useful activity, that is, what a person is more or less forced to do: go to work or school, wait for a bus, deliver goods, and so on. These activities take place under any circumstances.",
+					text:
+						"The variety of activities in the city space is characterized by basic patterns of use. In simple terms, the most important activity categories can be arranged on a scale, depending on necessity. One scale is the purposeful, useful activity, that is, what a person is more or less forced to do: go to work or school, wait for a bus, deliver goods, and so on. These activities take place under any circumstances.",
 				},
 				{
 					id: 6,
-					text: "The second category mostly includes rest, free-time activities, things that could make people happy - walk, stop to see the city, sit to enjoy the view or good time and so on. A precondition is a high-quality urban environment. To encourage not only movement, but also action for something else, there should be security and care offered, the environment must be broad enough, well planned and attractive visually. Viewing and listening passively is the broadest public contact category. This type of contact that can be most directly affected by urban planning. An encourage to walk and being around in the city determines whether the events in the city space allow people for being around and meeting each other.",
+					text:
+						"The second category mostly includes rest, free-time activities, things that could make people happy - walk, stop to see the city, sit to enjoy the view or good time and so on. A precondition is a high-quality urban environment. To encourage not only movement, but also action for something else, there should be security and care offered, the environment must be broad enough, well planned and attractive visually. Viewing and listening passively is the broadest public contact category. This type of contact that can be most directly affected by urban planning. An encourage to walk and being around in the city determines whether the events in the city space allow people for being around and meeting each other.",
 				},
 				{
 					id: 7,
-					text: "In all times, the city has served as a meeting place for people at different levels. Citizens met, exchanged information, closed the deals, agreed on marriages, offered their goods, gathered for big and small events. Then the people went on  processions, demonstrated their power, publicly celebrated holidays, did executed penalties.",
+					text:
+						"In all times, the city has served as a meeting place for people at different levels. Citizens met, exchanged information, closed the deals, agreed on marriages, offered their goods, gathered for big and small events. Then the people went on  processions, demonstrated their power, publicly celebrated holidays, did executed penalties.",
 				},
 				{
 					id: 8,
-					text: "Urban space continued to be an important meeting place for society in the 20th century, until the victory processions of modernized planning standards and car invasion. Urban space has gradually denied the opportunity to be a common connecting space for the people. Planning of the cities has mostly been devoted to the ideal, which embodies the rational and smooth running of the necessary activities. An increasingly denser of car traffic has made a city for life to enjoy to take a walk to impossible. Marketing and service functions are mostly concentrated under a single roof in large shopping centers. Walking traffic, urban life and the city as a meeting location- it's all ruining up.",
+					text:
+						"Urban space continued to be an important meeting place for society in the 20th century, until the victory processions of modernized planning standards and car invasion. Urban space has gradually denied the opportunity to be a common connecting space for the people. Planning of the cities has mostly been devoted to the ideal, which embodies the rational and smooth running of the necessary activities. An increasingly denser of car traffic has made a city for life to enjoy to take a walk to impossible. Marketing and service functions are mostly concentrated under a single roof in large shopping centers. Walking traffic, urban life and the city as a meeting location- it's all ruining up.",
 				},
 				{
 					id: 9,
-					text: "Living in the space of the city covers everything from casually sight over the smallest scene to the massive collective manifestations. Taking a walk through the city's common places can be self-aim, but it can also be the beginning of something new. Most importantly, there is an increasing awareness of the fact that cities must be built to encourage people to walk and live urban life. These cities has desire for people to stay in the space of the city, evaluating walking and cycling impact on public health and sustainability, as well as the importance of human life in the city as attractive, informal, safe and democratic meeting place in the 21st century. For almost 50 years, the human dimension has been ignored, and now, at the beginning of the 21st century, there is a demand and the will growing to rebuild the cities for the people.",
+					text:
+						"Living in the space of the city covers everything from casually sight over the smallest scene to the massive collective manifestations. Taking a walk through the city's common places can be self-aim, but it can also be the beginning of something new. Most importantly, there is an increasing awareness of the fact that cities must be built to encourage people to walk and live urban life. These cities has desire for people to stay in the space of the city, evaluating walking and cycling impact on public health and sustainability, as well as the importance of human life in the city as attractive, informal, safe and democratic meeting place in the 21st century. For almost 50 years, the human dimension has been ignored, and now, at the beginning of the 21st century, there is a demand and the will growing to rebuild the cities for the people.",
 				},
 				{
 					id: 10,
-					text: "// Jan Gehl, Cities for People, ISBN 9789984236902, 2010 // Jans Gēls, “Pilsētas cilvēkiem”, SIA Jāņa Rozes apgāds, 2018",
-				}
+					text:
+						"// Jan Gehl, Cities for People, ISBN 9789984236902, 2010 // Jans Gēls, “Pilsētas cilvēkiem”, SIA Jāņa Rozes apgāds, 2018",
+				},
 			],
 			component: "Daugava",
 			background: `../../images/maps/riga_map.png`,
@@ -74,9 +84,12 @@ export default function() {
 			id: 2,
 			key: "573243N242220F",
 			title: "Art nouveau in RIGA",
-			description: [{
-				id: 1,
-				text: "Animated slideshow of- Art Nouveau architecture in Riga- makes up roughly one third of all buildings in the centre of Riga, making the capital the city of Latvia enriched with the highest concentration of Art Nouveau architecture as nowhere in the world."},
+			description: [
+				{
+					id: 1,
+					text:
+						"Animated slideshow of- Art Nouveau architecture in Riga- makes up roughly one third of all buildings in the centre of Riga, making the capital the city of Latvia enriched with the highest concentration of Art Nouveau architecture as nowhere in the world.",
+				},
 			],
 			component: "Art",
 			images: [
@@ -500,9 +513,12 @@ export default function() {
 			id: 3,
 			key: "573243N242220E",
 			title: "Dabas liegums “Vidzemes akmeņainā jūrmala”",
-			description: [{
-				id: 1,
-				text:	"Hiking along the Rocky Seashore of Vidzeme- one day tour in the Nature Reserve `Vidzeme rocky seaside`. One of the most beautiful parts of the Baltic sea seashore in Latvia. User interaction with 3d model of rocks brings dynamic user experience by being involved into multiple levels of perception of the scene and viewports."},
+			description: [
+				{
+					id: 1,
+					text:
+						"Hiking along the Rocky Seashore of Vidzeme- one day tour in the Nature Reserve `Vidzeme rocky seaside`. One of the most beautiful parts of the Baltic sea seashore in Latvia. User interaction with 3d model of rocks brings dynamic user experience by being involved into multiple levels of perception of the scene and viewports.",
+				},
 			],
 			component: "Water",
 			images: [

@@ -8,7 +8,7 @@
   cursor: pointer;
   display: inline-block;
   width: 80px;
-  margin: 5px;
+  margin: 3px;
   border: .5px dotted #ddd;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .gallerie_item {
-  width: 50%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -131,5 +131,9 @@
 @media screen and (min-width: 770px) {
   .marker-num {
     display: none;
+  }
+
+  .gallerie_item {
+    width: 50%;
   }
 }
