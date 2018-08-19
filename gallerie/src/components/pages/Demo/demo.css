@@ -99,7 +99,15 @@
 
 .room_nav-description-text {
   margin: 0;
-  padding: 0;
+  line-height: 2;
+  display: block;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .room_nav-description-text {
+    padding: 10px 10px;
+  }
 }
 
 .room_nav-description {
@@ -107,11 +115,16 @@
   padding: 10px 30px 10px 20px;
   display: block;
   background: #fff;
-  margin: -7px;
+  margin: 0;
   line-height: 2;
   border-top: 1px solid #ededed;
   font-size: 0.7em;
   z-index: 10;
+  text-align: justify;
+  padding: 0 40px 40px;
+  overflow-y: scroll;
+  bottom: 0;
+  top: 50px;
 }
 
 @media screen and (min-width: 768px) {

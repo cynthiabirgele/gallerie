@@ -14,7 +14,7 @@ class Contact extends Component {
 							src="../../images/profile.jpg"
 						/>
 						<p> &#169; Cynthia Birgele</p>
-						<p>CEO, Front-End Application Development Analyst</p>
+						<p>Front-End Application Development Analyst</p>
 						<p>Email: info@uzsienas.lv</p>
 						<div>
 							<a

@@ -5,6 +5,7 @@ import { closeOverlay } from "../actions/index"
 import { Link } from "react-router-dom"
 import WaterScene from "../components/scenes/WaterScene"
 import ArtNouveau from "../components/scenes/ArtNouveau"
+import Daugava from "../components/scenes/Daugava"
 
 class ActiveRoom extends Component {
 	state = {
@@ -56,7 +57,13 @@ class ActiveRoom extends Component {
 					room={this.props.room.component}
 					layers={this.props.room.layers}
 				/>
+			)) ||
+			(this.props.room.component === `Daugava` && (
+				<Daugava
+					room={this.props.room.component}
+				/>
 			))
+
 		const hasDescription = this.props.room.description.length > 0
 		return (
 			<div className="room">
@@ -91,9 +98,11 @@ class ActiveRoom extends Component {
 				</div>
 				{this.state.showInfo && (
 					<div className="room_nav-description">
-						<p className="room_nav-description-text">
-							{this.props.room.description}
-						</p>
+							{this.props.room.description.map(descr => {
+								return (
+									<p className="room_nav-description-text" key={descr.id}>{descr.text}</p>
+								)
+							})}
 					</div>
 				)}
 				{findElement}

@@ -1,0 +1,135 @@
+.map-bg {
+  width: 100%;
+}
+
+.marker-1, .marker-2, .marker-3, .marker-4, .marker-5, .marker-6, .marker-7, .marker-8  {
+  position: relative;
+  cursor: pointer;
+  cursor: pointer;
+  display: inline-block;
+  width: 80px;
+  margin: 5px;
+  border: .5px dotted #ddd;
+}
+
+@media screen and (min-width: 770px) {
+  .marker-1 {
+    position: absolute;
+    display: block;
+    right: 33.7%;
+    top: 82.7%;
+  }
+
+  .marker-2 {
+    position: absolute;
+    display: block;
+    right: 37%;
+    top: 71%;
+  }
+
+  .marker-3 {
+    position: absolute;
+    display: block;
+    right: 39.5%;
+    top: 59%;
+  }
+
+  .marker-4 {
+    position: absolute;
+    display: block;
+    right: 45.5%;
+    top: 48.5%;
+  }
+
+  .marker-5 {
+    position: absolute;
+    display: block;
+    right: 51.4%;
+    top: 41.7%;
+  }
+
+  .marker-6 {
+    position: absolute;
+    display: block;
+    right: 57.5%;
+    top: 34.5%;
+  }
+
+  .marker-7 {
+    position: absolute;
+    display: block;
+    right: 63.5%;
+    top: 27%;
+  }
+
+  .marker-8 {
+    position: absolute;
+    display: block;
+    right: 70%;
+    top: 19%;
+  }
+}
+
+.gallerie {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  z-index: 1;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 50px 0;
+  border-radius: 30px;
+  overflow-y: scroll;
+}
+
+.gallerie_item {
+  width: 50%;
+  display: inline-block;
+}
+
+.gallerie_item-img {
+  width: 100%;
+}
+
+.map-close {
+  right: 20px;
+  position: absolute;
+  top: 10px;
+  margin: auto;
+  height: 30px;
+  cursor: pointer;
+}
+
+.map-header {
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  background: white;
+  top: 0;
+}
+
+.marker-num {
+  display: block;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 10px;
+  height: 12px;
+  width: 12px;
+  text-align: center;
+  font-size: 11px;
+  color: #c1c1c1;
+}
+
+@media screen and (min-width: 770px) {
+  .marker-num {
+    display: none;
+  }
+}
