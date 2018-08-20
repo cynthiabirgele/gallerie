@@ -28,11 +28,7 @@ export default class Daugava extends Component {
 				</div>,
 			)
 		}
-		const bgSrc =
-			document.documentElement.clientWidth <= 769
-				? `../../images/maps/riga_map-mobile.png`
-				: `../../images/maps/riga_map.png`
-
+		const isMobile = document.documentElement.clientWidth <= 769
 		return (
 			<div className="map">
 				<div className="map-bg">
@@ -49,6 +45,13 @@ export default class Daugava extends Component {
 							</div>
 							{images}
 						</div>
+					)}
+					{isMobile && (
+						<img
+							src="../../images/maps/riga_map-mobile.jpg"
+							alt="test"
+							className="map-bg"
+						/>
 					)}
 					<div className="marker-1" onClick={() => this.showOverlay(1)}>
 						<Markers />
@@ -82,7 +85,13 @@ export default class Daugava extends Component {
 						<Markers />
 						<p className="marker-num">8</p>
 					</div>
-					<img src={bgSrc} alt="test" className="map-bg" />
+					{!isMobile && (
+						<img
+							src="../../images/maps/riga_map.jpg"
+							alt="test"
+							className="map-bg"
+						/>
+					)}
 				</div>
 			</div>
 		)
