@@ -21,9 +21,9 @@ export default class Daugava extends Component {
 		for (var n = 1; n <= 20; n++) {
 			var source = `../../images/maps/promenade/${
 				this.state.activeItem
-			}/${n}.jpg`
+			}/${n}.JPG`
 			images.push(
-				<div className="gallerie_item">
+				<div className="gallerie_item" key={n}>
 					<img src={source} className="gallerie_item-img" alt="test" />
 				</div>,
 			)
